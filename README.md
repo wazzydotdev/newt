@@ -13,7 +13,7 @@ A simple, effective project creation tool, written in Rust using [cursive](https
   |----------|-----------------|
   | Rust     | Cargo           |
   | Go       | Go modules      |
-  | Python   | uv poetry, pip  |
+  | Python   | uv, poetry, pip |
 
 - **Optional git initialization**: check a box and the new project is initialized as a git repository (`git init`).
 - **Creates projects where you are**: new projects are created inside the directory you launched the tool from, and the final dialog shows you the exact path.
@@ -30,7 +30,7 @@ A simple, effective project creation tool, written in Rust using [cursive](https
 Install with cargo:
 
 ```sh
-cargo install --git <this-repo-url>
+cargo install --git https://github.com/wazzydotdev/newt
 ```
 
 Then run it from the directory where you want your new project:
