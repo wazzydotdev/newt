@@ -44,9 +44,9 @@ newt
 
 ```
 spawn/
-├── Cargo.toml      # crate manifest (cursive, crossterm, color-eyre)
-├── src/
-    └── main.rs     # entire application: TUI + scaffolding logic
+├── Cargo.toml        # Crate manifest — cursive, crossterm, color-eyre
+└── src/
+    └── main.rs       # Entire application: TUI + scaffolding logic
 ```
 
 ## Roadmap / Ideas
