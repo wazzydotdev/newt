@@ -49,9 +49,3 @@ spawn/
     └── main.rs       # Entire application: TUI + scaffolding logic
 ```
 
-## Roadmap / Ideas
-
-- [ ] More languages (C/C++ with CMake, JavaScript/TypeScript with npm or bun, ...)
-- [✓] ~~Choice of package manager per language (e.g. pip/poetry/uv for Python)~~
-- [ ] Custom target directory instead of always using the current one
--  [✓] ~~A license picker that adds the license of your choosing from within the TUI~~
